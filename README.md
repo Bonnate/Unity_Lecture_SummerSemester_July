@@ -1,3 +1,4 @@
+
 ![enter image description here](https://drive.google.com/uc?export=view&id=1pfmuXfWH9hGsTkg6VvZb6vcg1UzaNSPc)
 
 ## 메타버스 공간제작 과정 실습 프로젝트
@@ -13,3 +14,4 @@
  - [Some Textures](https://www.textures.com/free)
  - [Gold Coins](https://assetstore.unity.com/packages/3d/props/gold-coins-1810)
  - [Food Pack | Free Demo](https://assetstore.unity.com/packages/3d/props/food/food-pack-free-demo-225294)
+ - [Free Stylized Smoke Effects Pack](https://assetstore.unity.com/packages/vfx/particles/fire-explosions/free-stylized-smoke-effects-pack-226406)
