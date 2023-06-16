@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 2
+  m_Name: Brooklyn Uprock
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -35,7 +35,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 3
+  m_Name: Hip Hop Dancing
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -107,7 +107,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New State
+  m_Name: Rumba Dancing
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -139,22 +139,22 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -921613921446912515}
-    m_Position: {x: 300, y: 100, z: 0}
+    m_Position: {x: 20, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6464383346836821875}
-    m_Position: {x: 300, y: 200, z: 0}
+    m_Position: {x: 20, y: 290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8887525954895564585}
-    m_Position: {x: 300, y: 300, z: 0}
+    m_Position: {x: 20, y: 390, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5739005002379703986}
-    m_Position: {x: 300, y: 400, z: 0}
+    m_Position: {x: 300, y: 390, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_AnyStatePosition: {x: 40, y: 60, z: 0}
   m_EntryPosition: {x: 40, y: 110, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -194,7 +194,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 1
+  m_Name: Silly Dancing
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:

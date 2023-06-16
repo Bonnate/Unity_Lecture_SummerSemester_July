@@ -536,6 +536,8 @@ MonoBehaviour:
   mDirectionArrow: {fileID: 5637961179879045149}
   mDestinationFlag: {fileID: 1382703569}
   mDirectionArrowHeight: 0
+  mDustParticlePrefab: {fileID: 2808600213859502564, guid: 69604e77493096944bf131af77022e7b,
+    type: 3}
   mPowerMultiplier: 3
   mMaxPower: 10
 --- !u!54 &762925675

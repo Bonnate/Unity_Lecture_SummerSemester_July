@@ -13,6 +13,8 @@ public class GolfBall : MonoBehaviour
     [SerializeField] private Transform mDestinationFlag;
     [SerializeField] private float mDirectionArrowHeight = 2.0f;
 
+    [SerializeField] private GameObject mDustParticlePrefab;
+
     public float mPowerMultiplier = 5f; // 마우스를 누를 때 힘의 증가량
     public float mMaxPower = 100f; // 골프공에 가할 수 있는 최대 힘
 
@@ -114,5 +116,10 @@ public class GolfBall : MonoBehaviour
             Message($"{mHitCount}번의 시도 끝에 골인!");
             Init();
         }
+    }
+
+    private void OnCollisionEnter(Collision other) 
+    {
+        Instantiate(mDustParticlePrefab, transform.position, Quaternion.identity);
     }
 }

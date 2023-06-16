@@ -26,7 +26,7 @@ public class InteractiveCamera : MonoBehaviour
         {
             if(hit.transform.tag == "InteractiveProp")
             {
-                hit.transform.GetComponent<InteractiveProps>().Force(hit.point, 1.0f);
+                hit.transform.GetComponent<InteractiveProps>().Force(hit.point, 2.0f);
             }
         }
     }
