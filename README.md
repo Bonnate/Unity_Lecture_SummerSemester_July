@@ -1,4 +1,3 @@
-
 ![enter image description here](https://drive.google.com/uc?export=view&id=1pfmuXfWH9hGsTkg6VvZb6vcg1UzaNSPc)
 
 ## 메타버스 공간제작 과정 실습 프로젝트
@@ -12,3 +11,5 @@
  - [Lowpoly Environment - Nature Free - MEDIEVAL FANTASY SERIES](https://assetstore.unity.com/packages/3d/environments/lowpoly-environment-nature-free-medieval-fantasy-series-187052)
  - [AutoSave](https://assetstore.unity.com/packages/tools/utilities/autosave-43605)
  - [Some Textures](https://www.textures.com/free)
+ - [Gold Coins](https://assetstore.unity.com/packages/3d/props/gold-coins-1810)
+ - [Food Pack | Free Demo](https://assetstore.unity.com/packages/3d/props/food/food-pack-free-demo-225294)
