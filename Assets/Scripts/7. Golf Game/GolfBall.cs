@@ -37,6 +37,9 @@ public class GolfBall : MonoBehaviour
 
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked; // 커서를 잠금 모드로 설정하여 숨김
+        Cursor.visible = false; // 커서를 보이지 않도록 설정
+
         mRigidbody = GetComponent<Rigidbody>(); // Rigidbody 컴포넌트를 가져옵니다.
         mMainCamera = Camera.main; // 메인카메라를 가져옵니다.
         mOriginPos = transform.position; // 게임 시작 시 현재 위치를 등록합니다.

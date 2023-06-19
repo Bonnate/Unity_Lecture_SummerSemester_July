@@ -9440,7 +9440,7 @@ GameObject:
   - component: {fileID: 198668123017588434}
   - component: {fileID: 199993071417457244}
   m_Layer: 0
-  m_Name: 'Rain 2 '
+  m_Name: Rain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

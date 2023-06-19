@@ -547,12 +547,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 294585242}
+  - component: {fileID: 294585245}
   - component: {fileID: 294585237}
   - component: {fileID: 294585240}
   - component: {fileID: 294585238}
   - component: {fileID: 294585239}
   - component: {fileID: 294585244}
-  - component: {fileID: 294585245}
   m_Layer: 0
   m_Name: Overlay Camera (Props)
   m_TagString: Untagged
@@ -1918,7 +1918,7 @@ Transform:
   - {fileID: 895395565}
   - {fileID: 462981253}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -165.753, z: 0}
 --- !u!1 &769100597
 GameObject:
@@ -2810,7 +2810,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1168491423}
-  - {fileID: 1326976706}
+  - {fileID: 1713704528}
   - {fileID: 791817985}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -3122,7 +3122,7 @@ Transform:
   - {fileID: 357270835}
   - {fileID: 1099647187}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &1057634033
 GameObject:
@@ -3860,7 +3860,7 @@ MonoBehaviour:
           y: -0.16252355
           z: 0
           w: 0.98670465
-    m_Length: 7.034148
+    m_Length: -1
     m_MetaData:
     - Mode: 0
       Tension: 0.33333334
@@ -3879,13 +3879,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1326976704}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.308438, y: -4.3058724, z: 4.306444}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1713704528}
-  m_Father: {fileID: 987550641}
-  m_RootOrder: -1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1326976707
 MonoBehaviour:
@@ -4769,12 +4768,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713704524}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.26, y: 0, z: 0}
+  m_LocalPosition: {x: -11.568439, y: -4.3058724, z: 4.306444}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 483133094}
-  m_Father: {fileID: 1326976706}
+  m_Father: {fileID: 987550641}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1737694616
@@ -5790,7 +5789,7 @@ Transform:
   - {fileID: 7992580012252869108}
   - {fileID: 5465940246269530897}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -200.874, z: 0}
 --- !u!4 &608321761225323026
 Transform:
