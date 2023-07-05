@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/7. Golf Game.unity
-    guid: 710fe675474ad924d8205ef1e5bcce9c
+    path: Assets/Scenes/9. Interactive Contents.unity
+    guid: 25b85e3892be8884d9ca1068bdac921a
   m_configObjects: {}
