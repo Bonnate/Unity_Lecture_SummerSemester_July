@@ -72,4 +72,23 @@ public class CharacterAiMovement : MonoBehaviour
 
         SetRandomDestination(); // 랜덤한 목적지 설정
     }
+
+    // 다른 Collider와 충돌한 경우 호출됩니다.
+    private void OnTriggerEnter(Collider other) 
+    {
+        if (other.tag == "Player")
+        {
+            mNavMeshAgent.isStopped = true; // 네비게이션 에이전트의 이동을 멈춥니다.
+
+            GreetingEach(transform.position); // 다른 캐릭터에게 인사를 합니다.
+        }
+    }
+
+    private void OnTriggerExit(Collider other) 
+    {
+        if (other.tag == "Player")
+        {
+            PlayerExit(); // 플레이어가 벗어났으므로 함수를 호출합니다.
+        }
+    }       
 }

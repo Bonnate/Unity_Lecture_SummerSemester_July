@@ -36,29 +36,4 @@ public class MyCharacterAiMovement : CharacterAiMovement
             }
         }
     }
-
-    // 다른 Collider와 충돌한 경우 호출됩니다.
-    private void OnTriggerEnter(Collider other) 
-    {
-        CharacterAiMovement? characterAiMovement = null;
-
-        // 충돌한 오브젝트에서 CharacterAiMovement 컴포넌트를 가져옵니다.
-        if (other.TryGetComponent<CharacterAiMovement>(out characterAiMovement))
-        {
-            mNavMeshAgent.isStopped = true; // 네비게이션 에이전트의 이동을 멈춥니다.
-
-            characterAiMovement.GreetingEach(transform.position); // 다른 캐릭터에게 인사를 합니다.
-        }
-    }
-
-    private void OnTriggerExit(Collider other) 
-    {
-        CharacterAiMovement? characterAiMovement = null;
-
-        // 충돌한 오브젝트에서 CharacterAiMovement 컴포넌트를 가져옵니다.
-        if (other.TryGetComponent<CharacterAiMovement>(out characterAiMovement))
-        {
-            characterAiMovement.PlayerExit(); // 플레이어가 벗어났으므로 함수를 호출합니다.
-        }
-    }    
 }
